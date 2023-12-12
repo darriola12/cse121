@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles/styles.css">
+  <title>Mi Portafolio</title>
+</head>
+<body>
+
+  <header>
+    <h1>Mi Portafolio</h1>
+    <nav>
+      <ul id="menu">
+        <li><a href="#about">Acerca de mí</a></li>
+        <li><a href="#projects">Proyectos</a></li>
+      </ul>
+    </nav>
+    <button id="changeLanguage">Ingles</button>
+  </header>
+
+  <section id="about">
+    <h2>Acerca de Mí</h2>
+    <p>¡Hola! Soy [Tu Nombre], un apasionado desarrollador web.</p>
+    
+  </section>
+
+  <section id="projects">
+    <h2>Proyectos</h2>
+    <div class="project">
+      <h3>Proyecto 1</h3>
+      <p>Descripción del proyecto 1.</p>
+    </div>
+    <div class="project">
+      <h3>Proyecto 2</h3>
+      <p>Descripción del proyecto 2.</p>
+    </div>
+  
+  </section>
+  <section id="studies">
+    <h2>Estudios</h2>
+    <div class="study">
+      <h2 id ="school"></h3>
+      <h3 id ="degree"></h3>
+      <h4 id="year"></h4>
+    </div>
+    <div class="study">
+      <h2 id ="school1"></h3>
+        <h3 id ="degree2"></h3>
+        <h4 id="year3"></h4>
+    </div>
+  </section>
+  <select id="sortBy" title="Choose a data filter.">
+    <option value="" disabled selected>Educacion</option>
+    <option value="Universidad de Costa Rica">Universidad de Costa Rica</option>
+    <option value="BYU Pathway">BYU Pathway</option>
+    <option value="BYUI">BYUI</option>
+  </select>
+  <div id="information">
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

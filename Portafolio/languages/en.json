@@ -1,0 +1,6 @@
+{
+    "language": "en",
+    "about": "<h2>About Me</h2><p>Hello! I'm [Your Name], a passionate web developer.</p>",
+    "projects": "<h2>Projects</h2><div class=\"project\"><h3>Project 1</h3><p>Description of project 1.</p></div><div class=\"project\"><h3>Project 2</h3><p>Description of project 2.</p></div>",
+    "studies": "<h2>Studies</h2><div class=\"study\"><h3>Title of your first study</h3><p>Description or details about your first study.</p></div><div class=\"study\"><h3>Title of your second study</h3><p>Description or details about your second study.</p></div>"
+}

@@ -1,0 +1,60 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+  
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+  
+nav {
+    display: inline-block;
+}
+  
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+  
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+  
+section {
+    padding: 20px;
+}
+  
+.project {
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+  
+#changeLanguage {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+  
+#changeLanguage:hover {
+    background-color: #45a049;
+}
+#studies {
+    background-color: #f9f9f9;
+    padding: 20px;
+}
+  
+.study {
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    padding: 10px;
+}
